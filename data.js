@@ -4,7 +4,7 @@ const resumes = [
     name: "黄文如",
     majorGrade: "2024级 广东药科大学 口腔医学（本科大二在读）",
     shortMajor: "口腔医学24级",
-    photo: "images/huangwenru.jpg",
+    photo: "images/huangwenru.png",
     selfEvaluation: "专业实践能力良好，组织协调和团队协作能力强，吃苦耐劳，责任心强，服从组织安排，能适应长时间车程与基层实践环境，学习能力强，调研能力良好。",
     experience: [
       "2026.03 参与校园及社区口腔健康义诊志愿活动",
@@ -26,7 +26,7 @@ const resumes = [
     name: "王祺",
     majorGrade: "2024级 广东药科大学 口腔医学 24班",
     shortMajor: "口腔医学24班",
-    photo: "images/wangqi.jpg",
+    photo: "images/wangqi.png",
     selfEvaluation: "性格开朗，善于沟通，不怕吃苦，乐于助人，责任心强，不怕晕车，新环境适应能力强，希望充实自身。",
     experience: [
       "2025年暑期在东莞第八儿童医院进行近半个月口腔见习",
