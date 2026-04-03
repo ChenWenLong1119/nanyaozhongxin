@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  background: #f3f6fb;
+  color: #222;
+}
+
+.site-header {
+  background: #176b9b;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.site-header p {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.detail-header h1 {
+  font-size: 34px;
+}
+
+.back-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 20px 50px;
+}
+
+/* 首页卡片区域 */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 28px;
+}
+
+.resume-card {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  background: #fff;
+  border: 2px solid #2d65c7;
+  border-radius: 28px;
+  padding: 24px 20px;
+  min-height: 190px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.resume-card-info h2 {
+  margin: 0 0 16px;
+  color: #176b9b;
+  font-size: 52px;
+  line-height: 1.1;
+}
+
+.resume-card-info p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+}
+
+/* 照片框 */
+.photo-box {
+  width: 140px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #eef2f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c8d3df;
+}
+
+.photo-box.large {
+  width: 180px;
+  height: 220px;
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  font-weight: bold;
+  color: #7e8a97;
+  background: linear-gradient(135deg, #f7f9fc, #e8edf4);
+}
+
+/* 详情页 */
+.resume-detail {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.detail-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  position: relative;
+}
+
+.detail-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.detail-basic h2 {
+  margin: 0 0 12px;
+  font-size: 38px;
+  color: #176b9b;
+}
+
+.detail-basic p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.detail-photo-area {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.detail-section {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid #dce5ef;
+}
+
+.detail-section h3 {
+  margin: 0 0 14px;
+  font-size: 24px;
+  color: #1c4f7d;
+}
+
+.detail-section p,
+.detail-section li {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.detail-section ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+/* 响应式 */
+@media (max-width: 900px) {
+  .site-header h1 {
+    font-size: 28px;
+  }
+
+  .resume-card {
+    min-height: auto;
+  }
+
+  .resume-card-info h2 {
+    font-size: 34px;
+  }
+
+  .resume-card-info p {
+    font-size: 20px;
+  }
+
+  .detail-photo-area {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .detail-card {
+    padding: 22px;
+  }
+
+  .detail-basic h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resume-card-info h2 {
+    font-size: 28px;
+  }
+
+  .resume-card-info p {
+    font-size: 18px;
+  }
+
+  .photo-box {
+    width: 120px;
+    height: 150px;
+  }
+}
