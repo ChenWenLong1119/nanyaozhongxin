@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
-  background: #f3f6fb;
+  background: #f4f7fd;
   color: #222;
 }
 
@@ -13,22 +13,22 @@ body {
   background: #176b9b;
   color: white;
   text-align: center;
-  padding: 28px 16px;
+  padding: 24px 16px 36px;
 }
 
 .site-header h1 {
   margin: 0;
-  font-size: 42px;
+  font-size: 56px;
   font-weight: 700;
 }
 
 .site-header p {
   margin-top: 12px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .detail-header h1 {
-  font-size: 34px;
+  font-size: 38px;
 }
 
 .back-link {
@@ -42,27 +42,26 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 32px 20px 50px;
+  padding: 40px 20px 60px;
 }
 
-/* 首页卡片区域 */
 .card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  gap: 32px;
 }
 
 .resume-card {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 30px;
   background: #fff;
   border: 2px solid #2d65c7;
-  border-radius: 28px;
-  padding: 24px 20px;
-  min-height: 190px;
+  border-radius: 30px;
+  padding: 28px 24px;
+  min-height: 210px;
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -74,42 +73,42 @@ body {
 }
 
 .resume-card-info h2 {
-  margin: 0 0 16px;
+  margin: 0 0 18px;
   color: #176b9b;
-  font-size: 52px;
-  line-height: 1.1;
+  font-size: 72px;
+  line-height: 1.05;
 }
 
 .resume-card-info p {
   margin: 0;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   color: #000;
 }
 
-/* 照片框 */
 .photo-box {
-  width: 140px;
-  height: 180px;
+  width: 175px;
+  height: 220px;
   flex-shrink: 0;
-  border-radius: 12px;
+  border-radius: 18px;
   overflow: hidden;
   background: #eef2f7;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #c8d3df;
+  border: 1px solid #cfd8e3;
 }
 
 .photo-box.large {
-  width: 180px;
-  height: 220px;
+  width: 190px;
+  height: 240px;
 }
 
 .photo-box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .photo-placeholder {
@@ -118,13 +117,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: bold;
   color: #7e8a97;
   background: linear-gradient(135deg, #f7f9fc, #e8edf4);
 }
 
-/* 详情页 */
 .resume-detail {
   max-width: 1100px;
   margin: 0 auto;
@@ -132,22 +130,25 @@ body {
 
 .detail-card {
   background: #fff;
-  border-radius: 16px;
+  border-radius: 18px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   padding: 32px;
-  position: relative;
 }
 
 .detail-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.detail-basic {
+  flex: 1;
 }
 
 .detail-basic h2 {
   margin: 0 0 12px;
-  font-size: 38px;
+  font-size: 40px;
   color: #176b9b;
 }
 
@@ -155,12 +156,6 @@ body {
   margin: 0;
   font-size: 20px;
   line-height: 1.8;
-}
-
-.detail-photo-area {
-  position: absolute;
-  top: 32px;
-  right: 32px;
 }
 
 .detail-section {
@@ -186,14 +181,35 @@ body {
   padding-left: 24px;
 }
 
-/* 响应式 */
-@media (max-width: 900px) {
-  .site-header h1 {
-    font-size: 28px;
+.empty-tip {
+  font-size: 22px;
+  color: #666;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+@media (max-width: 1100px) {
+  .card-list {
+    grid-template-columns: 1fr;
   }
 
+  .resume-card-info h2 {
+    font-size: 52px;
+  }
+
+  .resume-card-info p {
+    font-size: 26px;
+  }
+
+  .site-header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 700px) {
   .resume-card {
-    min-height: auto;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .resume-card-info h2 {
@@ -204,41 +220,20 @@ body {
     font-size: 20px;
   }
 
-  .detail-photo-area {
-    position: static;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .photo-box {
+    width: 140px;
+    height: 180px;
   }
 
-  .detail-card {
-    padding: 22px;
-  }
-
-  .detail-basic h2 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 600px) {
-  .card-list {
-    grid-template-columns: 1fr;
-  }
-
-  .resume-card {
+  .detail-top {
     flex-direction: column;
-    align-items: flex-start;
   }
 
-  .resume-card-info h2 {
+  .site-header h1 {
     font-size: 28px;
   }
 
-  .resume-card-info p {
-    font-size: 18px;
-  }
-
-  .photo-box {
-    width: 120px;
-    height: 150px;
+  .site-header p {
+    font-size: 16px;
   }
 }
