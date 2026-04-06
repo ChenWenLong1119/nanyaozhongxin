@@ -1170,10 +1170,10 @@ const resumes = [
   },
   {
     id: "pengzhixuan",
-    name: "彭智轩",
+    name: "彭锦轩",
     majorGrade: "2024级 广东药科大学 中西医临床医学24",
     shortMajor: "中西医临床24级",
-    photo: "images/pengzhixuan.png",
+    photo: "images/pengjinxuan.png",
     selfEvaluation: "吃苦耐劳，善于沟通，责任意识和团队协作意识强，积极服从安排，不怕晕车，环境适应能力强。",
     experience: [
       "参加校红十字会组织，参与社会服务和献血活动",
