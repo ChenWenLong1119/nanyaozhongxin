@@ -1169,7 +1169,7 @@ const resumes = [
     motivation: "依托本地户籍与粤语优势快速适应实践环境，将自身特长与实践任务结合，负责影像记录、新闻稿撰写与新媒体宣传，协助数据整理与调研分析，为“南药种芯”助力乡村振兴贡献力量。"
   },
   {
-    id: "pengzhixuan",
+    id: "pengjinxuan",
     name: "彭锦轩",
     majorGrade: "2024级 广东药科大学 中西医临床医学24",
     shortMajor: "中西医临床24级",
