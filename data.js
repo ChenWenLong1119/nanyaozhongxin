@@ -261,6 +261,104 @@ const resumes = [
     motivation: "希望加入“南药种芯”三下乡团队，用医学知识守护村民健康，用美术设计和摄影记录传播南药文化，用调研能力助力乡村振兴；在基层实践中锤炼责任感，将所学服务社会，实现个人与集体价值统一。"
   },
   {
+    id: "liqianqian",
+    name: "李骞骞",
+    majorGrade: "2025级 广东药科大学 临床医学（转专业，原预防医学）",
+    shortMajor: "临床医学25级",
+    photo: "images/liqianqian.png",
+    selfEvaluation: "具备较好的语言表达与学习能力，能够适应专业转换带来的学习挑战，个人综合素质较好，具有一定服务意识与实践潜力。",
+    experience: [
+      "大一期间任公共卫生学院团委学生会体育部干部",
+      "2024.10-2025.09 就读预防医学，后转入临床医学专业"
+    ],
+    skills: [
+      "普通话二级乙等",
+      "通过大学英语四级、六级",
+      "做过英语家教",
+      "进入过广州大剧院童声合唱团",
+      "会听会讲粤语",
+      "持有驾照"
+    ],
+    motivation: "希望通过社会实践进一步锻炼自己，发挥语言沟通与综合能力，在团队中认真完成各项任务。"
+  },
+  {
+    id: "linzongrong",
+    name: "林宗榮",
+    majorGrade: "2023级 广东药科大学第一临床医学院 临床医学",
+    shortMajor: "临床医学23级",
+    photo: "images/linzongrong.png",
+    selfEvaluation: "学习能力扎实，吃苦耐劳，沟通交际能力良好，责任心强，团队协助能力强，乐于担当奉献，渴望在实践中磨练成长。",
+    experience: [
+      "2023.11-2024.06 任广东药科大学红十字会外联部部员",
+      "2024.07-2025.07 任GYC街舞队Breaking分队分队长",
+      "2025.10 至今任临床医学23（3）班文娱委员"
+    ],
+    skills: [
+      "熟练使用办公软件",
+      "擅长文案写作、稿件撰写",
+      "有科研基础和数据整合能力",
+      "会听会说粤语",
+      "持有驾照"
+    ],
+    motivation: "希望成为“三下乡”队员，在有责任与担当的实践中磨练自身、获得成长。"
+  },
+  {
+    id: "wangweiyu",
+    name: "王伟宇",
+    majorGrade: "2024级 广东药科大学第一临床医学院 临床医学241班",
+    shortMajor: "临床医学241",
+    photo: "images/wangweiyu.png",
+    selfEvaluation: "吃苦耐劳，性格开朗，不怕晕车，能够较好适应实践过程中的出行与基层环境要求。",
+    experience: [
+      "2025年三下乡红心护苗突击队队员",
+      "大一时参加过红十字会"
+    ],
+    skills: [
+      "擅长游泳"
+    ],
+    motivation: "希望继续参与社会实践，在基层服务中积累经验、锻炼能力，为团队贡献自己的力量。"
+  },
+  {
+    id: "chencuiyi",
+    name: "陈翠怡",
+    majorGrade: "2024级 广东药科大学 口腔医学",
+    shortMajor: "口腔医学24级",
+    photo: "images/chencuiyi.png",
+    selfEvaluation: "善于沟通，团队协作意识高，吃苦耐劳，责任心强，有担当，服从团队安排，能适应长时间车程和基层实践环境，不怕晕车。",
+    experience: [
+      "有“小挑”参赛经历"
+    ],
+    skills: [
+      "会听会说粤语",
+      "持有驾照",
+      "懂PPT排版美化",
+      "有一定科研基础",
+      "具备调研和数据整理能力",
+      "拍摄水平较好",
+      "持有计算机二级证书"
+    ],
+    motivation: "希望通过社会实践发挥自身沟通、调研和整理能力，在团队合作中服务基层、提升自我。"
+  },
+  {
+    id: "chenfangzheng",
+    name: "陈方正",
+    majorGrade: "广东药科大学 口腔医学",
+    shortMajor: "口腔医学",
+    photo: "images/chenfangzheng.png",
+    selfEvaluation: "乐观开朗，擅长沟通，乐于协作，做事认真负责，关注细节，严谨执行，不怕艰苦困难，坚持不懈，服从组织安排，适应乡村生活。",
+    experience: [
+      "在实验室参与过科研项目",
+      "参与过相关三下乡项目的前期制作",
+      "曾在乡村生活过"
+    ],
+    skills: [
+      "会听会说粤语，了解岭南文化",
+      "持有C1驾照，有长途驾驶经验，不晕车",
+      "熟悉PPT制作、排版及美化"
+    ],
+    motivation: "希望在社会实践中发挥自身沟通、执行和适应能力，为团队顺利开展基层工作贡献力量。"
+  },
+  {
     id: "linyutong",
     name: "林雨彤",
     majorGrade: "2025级 广东药科大学 中西医临床医学",
@@ -320,56 +418,6 @@ const resumes = [
       "沟通、团队协作能力良好"
     ]
     // motivation 字段已删除，因为它明确提及“未明确提及”
-  },
-  {
-    id: "liqianqian",
-    name: "李骞骞",
-    majorGrade: "2025级 广东药科大学 临床医学（转专业，原预防医学）",
-    shortMajor: "临床医学",
-    relatedExperience: "大一期间任公共卫生学院团委学生会体育部干部；2024.10-2025.09 就读预防医学，后转入临床医学专业",
-    skillsAndSpecialties: "普通话二级乙等；通过大学英语四、六级；做过英语家教；进入过广州大剧院童声合唱团；会听会讲粤语；持有驾照",
-    photo: "liqianqian.png"
-  },
-  {
-    id: "linzongrong",
-    name: "林宗榮",
-    majorGrade: "2023级 广东药科大学第一临床医学院 临床医学",
-    shortMajor: "临床医学",
-    selfAssessment: "学习能力扎实，吃苦耐劳，沟通交际能力良好，责任心强，团队协助能力强，乐于担当奉献，渴望在实践中磨练成长",
-    relatedExperience: "2023.11-2024.06 任广东药科大学红十字会外联部部员；2024.07-2025.07 任 GYC 街舞队 Breaking 分队分队长；2025.10 至今任临床医学 23 (3) 班文娱委员",
-    skillsAndSpecialties: "熟练使用办公软件；擅长文案写作、稿件撰写；有科研基础和数据整合能力；会听会说粤语；持有驾照",
-    socialPracticeMotivation: "希望成为 “三下乡” 队员，在有责任与担当的实践中磨练自身、获得成长",
-    photo: "linzongrong.png"
-  },
-  {
-    id: "wangweiyu",
-    name: "王伟宇",
-    majorGrade: "2024级 广东药科大学第一临床医学院 临床医学 241 班",
-    shortMajor: "临床医学",
-    selfAssessment: "吃苦耐劳，性格开朗，不怕晕车",
-    relatedExperience: "2025 年三下乡红心护苗突击队队员；大一时参加过红十字会",
-    skillsAndSpecialties: "擅长游泳",
-    photo: "wangweiyu.png"
-  },
-  {
-    id: "chencuiyi",
-    name: "陈翠怡",
-    majorGrade: "2024级 广东药科大学 口腔医学",
-    shortMajor: "口腔医学",
-    selfAssessment: "善于沟通，团队协作意识高，吃苦耐劳，责任心强，有担当，服从团队安排，能适应长时间车程和基层实践环境，不怕晕车",
-    relatedExperience: "有 “小挑” 参赛经历",
-    skillsAndSpecialties: "会听会说粤语；持有驾照；懂 PPT 排版美化；有一定科研基础；具备调研和数据整理能力；拍摄水平较好；持有计算机二级证书",
-    photo: "chencuiyi.png"
-  },
-  {
-    id: "chenfangzheng",
-    name: "陈方正",
-    majorGrade: "广东药科大学 口腔医学",
-    shortMajor: "口腔医学",
-    selfAssessment: "乐观开朗，擅长沟通，乐于协作，做事认真负责，关注细节，严谨执行，不怕艰苦困难，坚持不懈，服从组织安排，适应乡村生活",
-    relatedExperience: "在实验室参与过科研项目；参与过相关三下乡项目的前期制作；曾在乡村生活过",
-    skillsAndSpecialties: "会听会说粤语，了解岭南文化；持有 C1 驾照，有长途驾驶经验，不晕车；熟悉 PPT 制作、排版及美化",
-    photo: "chenfangzheng.png"
   },
   {
     id: "fanzhuomin",
