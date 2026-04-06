@@ -41,7 +41,7 @@ const resumes = [
       "不会粤语，无驾照"
     ],
     motivation: "希望参加有意义的实践活动充实自己，提升自身能力。"
-  }
+  },
   {
     id: "hejiali",
     name: "何嘉莉",
@@ -197,7 +197,7 @@ const resumes = [
       "表达与沟通能力良好"
     ],
     motivation: "暂无明确实践动机或期望。" // 根据“无”填写的
-  }
+  },
   {
     id: "zhuppingping",
     name: "朱萍萍",
