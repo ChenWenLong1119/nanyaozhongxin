@@ -150,7 +150,7 @@ const resumes = [
     motivation: "可发挥主持、文案、PPT、实验、粤语等技能，参与三下乡的路演、宣传、活动执行、科研辅助等工作。"
   },
   {
-    id: "yangyike",
+    id: "yanglingke",
     name: "杨翊可",
     majorGrade: "2024级 广东药科大学第一临床医学院 中西医临床医学（本科）",
     shortMajor: "中西医临床医学24级",
